@@ -1,0 +1,61 @@
+/*{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Play Sudoku",
+            "type": "python",
+            "request": "launch",
+            "program": "play_sudoku.py",
+            "args": ["./sudoku/sudoku_9x9_2.txt", "-a=backtrack"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Play Dungeon",
+            "type": "python",
+            "request": "launch",
+            "program": "play_dungeon.py",
+            "args": ["./dungeons/dungeon1.txt", "-ac", "-a=greedy", "-hf=strong"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Play Tree",
+            "type": "python",
+            "request": "launch",
+            "program": "play_tree.py",
+            "args": ["./trees/tree1.json", "-a=minimax", "-adv=minimax"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Autograder",
+            "type": "python",
+            "request": "launch",
+            "program": "autograder.py",
+            "args": ["-q=1", "--debug"],
+            "console": "integratedTerminal"
+        }
+    ]
+}*/
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "G:/Sem 7/MI/Problem Set 2 - Student Version v2/Problem Set 2 - Student Version/autograder.py",
+            //"program": "G:/Sem 7/MI/Problem Set 1 - Student Version/Problem Set 1 - Student Version/play_graph.py",
+            "console": "integratedTerminal",
+            //"args": ["G:/Sem 7/MI/Problem Set 1 - Student Version/Problem Set 1 - Student Version/graphs/graph7.json","-a","dfs"],
+            "args": [
+                "-d","-q 8"
+            ],
+            "justMyCode": true
+        }
+    ]
+}
